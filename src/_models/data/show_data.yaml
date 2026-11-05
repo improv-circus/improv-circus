@@ -37,7 +37,7 @@
 -
   type: wry_vs_dry_aot
   when: { date: "2026-11-07", time: "18:30" }
-  players: [dan]
+  players: [christian, tom, dan, mary, adrian, christina, ray]
 -
   type: wry_vs_dry_aot
   name: Wry vs. Dry feat. Chick Flick

@@ -23,6 +23,9 @@ csz_san_jose:
 all_out:
   name: "All Out Comedy Theater"
   link: "https://www.alloutcomedytheater.com"
+  social:
+    instagram: alloutcomedytheater
+    facebook: alloutcomedytheater
   location:
     link: https://maps.app.goo.gl/GLWGYNahLBKPeBso7
     street: 2550 Telegraph Avenue
@@ -116,6 +119,8 @@ live_wire: &livewire
   name: Live Wire
   logo: live_wire
   link: https://www.instagram.com/livewire.hq/
+  social:
+    instagram: livewire.hq
 
 chanticleers: &chanticleers
   location:

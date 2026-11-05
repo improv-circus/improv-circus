@@ -5,10 +5,12 @@
  * @property {string} link
  * @property {string} [icon]
  * @property {string} [logo]
+ * @property {SocialData} [social]
  */
 
 import {imageUrl} from "./modelUtils.js";
 import {Location} from "./location.js";
+import {Social} from "./social.js";
 
 /**
  * @typedef {Object} Theater
@@ -24,6 +26,7 @@ export class Theater {
     this.key = key;
     this.name = data.name;
     this.link = data.link
+    this.social = Social.fromData(data.social)
 
     if (data.location) {
       this.location = new Location(data.location)

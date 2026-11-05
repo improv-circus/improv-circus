@@ -19,6 +19,16 @@ ray:
   name: Ray Cornell
   image: ray.png
   theaters: [csz_san_jose]
+  social:
+    instagram: tabithasdad_raymomb
+
+adrian:
+  name: Adrian
+  image: generic-male.png
+
+christina:
+  name: Christina
+  image: generic-female.png
 
 tim:
   name: Tim Whetham

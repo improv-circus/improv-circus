@@ -1,5 +1,6 @@
 include theater_logo
 include link_or_text
+include social
 
 mixin theater_info(theater)
   .theater_info
@@ -13,3 +14,6 @@ mixin theater_info(theater)
 
       .theater_location
         +link_or_text(theater.location.link, theater.location.full)
+      if theater.social
+        .link_group
+          +social_list(theater.social)
